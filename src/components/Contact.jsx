@@ -11,13 +11,6 @@ export const Contact = () => {
             transition={{duration:0.5}}
         className='my-10 text-center text-4xl text-yellow-400'>Contactame</motion.h2>
         <div className='text-center tracking-tighter'>
-            <motion.p 
-            whileInView={{opacity:1, x: 0}}
-            initial={{opacity:0, x:-100}}
-            transition={{duration:1}}
-            className='my-4'>
-                {CONTACT.address}
-            </motion.p>
             <motion.p
                 whileInView={{opacity:1, x: 0}}
                 initial={{opacity:0, x:100}}
@@ -28,7 +21,7 @@ export const Contact = () => {
                 whileInView={{opacity:1, x: 0}}
                 initial={{opacity:0, x:-100}}
                 transition={{duration:1}}
-                href="#" className='border-b'>
+                href="#" className='bg-white rounded-full p-1 text-sm text-stone-800 mb-10'>
                 {CONTACT.email}
             </motion.a>
         </div>

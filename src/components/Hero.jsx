@@ -66,7 +66,7 @@ const Hero = () => {
                 href={CvDiegoValdes}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10"
+                className="bg-white rounded-full p-3 text-sm text-stone-800 mb-10"
               >
                 Descargar CV
               </a>

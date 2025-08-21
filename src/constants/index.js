@@ -2,6 +2,14 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
+import web from "../assets/certifications/web.png";
+import SQL from "../assets/certifications/SQL.png";
+import Python from "../assets/certifications/Python.png";
+import Git from "../assets/certifications/Git.png";
+import Analisis_de_datos from "../assets/certifications/Analisis_de_datos.png";
+import Full_Stack from "../assets/certifications/Full_Stack.png";
+import Full_Stack_Part2 from "../assets/certifications/Full_Stack_Part2.png";
+
 
 export const HERO_CONTENT = ``;
 
@@ -91,3 +99,42 @@ export const CONTACT = {
   phoneNo: "+56 9 4697 7016",
   email: "diego.v.diaz123@gmail.com",
 };
+
+
+export const CERTIFICATES = [
+  {
+    title: "Full-Stack",
+    img: Full_Stack,
+    link: "https://www.acreditta.com/credential/354d60cb-f549-4a46-973b-516c5372e9f9?utm_source=copy&resource_type=badge&resource=354d60cb-f549-4a46-973b-516c5372e9f9"
+  },
+  {
+    title: "Full-Stack parte 2",
+    img: Full_Stack_Part2,
+    link: "https://udemy-certificate.s3.amazonaws.com/pdf/UC-da62a6ee-1abf-4b36-a1f5-c752882f12e7.pdf"
+  },
+  {
+    title: "Desarrollo y programacion web",
+    img: web,
+    link: "https://www.linkedin.com/in/diego-valdes-diaz/details/certifications/1755114526081/single-media-viewer/?type=DOCUMENT&profileId=ACoAAEgUcPYB94VKolucooHb8WdOIJJa8AF1--U"
+  },
+  {
+    title: "Analisis de datos",
+    img: Analisis_de_datos,
+    link: "https://www.coursera.org/account/accomplishments/professional-cert/certificate/UDF4UQMZ5RXU"
+  },
+  {
+    title: "SQL",
+    img: SQL,
+    link: "https://udemy-certificate.s3.amazonaws.com/pdf/UC-0497ebac-632d-4bae-b61c-19ffcd78e4d5.pdf"
+  },
+  {
+    title: "Python",
+    img: Python,
+    link: "https://udemy-certificate.s3.amazonaws.com/pdf/UC-748d099a-fa0e-4e59-b0fa-bf8ab1b82425.pdf"
+  },
+  {
+    title: "Git",
+    img: Git,
+    link: "https://udemy-certificate.s3.amazonaws.com/pdf/UC-59aeea6a-0b87-4755-8bc2-39a262899c68.pdf"
+  },
+]
