@@ -73,7 +73,7 @@ export const PROJECTS = [
     image: project2,
     link: "https://www.youtube.com/watch?v=4NpuQKW6Z3Q",
     description:
-      "Este proyecto está diseñado con Django e implica conocimiento avanzado en Python (POO y CRUD), HTML, CSS (en este caso Bootstrap) y, en algunos casos, JavaScript (para interactividad en la web). Para los datos del sistema se utilizó SQL y uno de sus motores de base de datos para poder almacenarlos; en este caso utilizó PostgreSQL. Finalmente, para relacionar las tablas se utilizó el ORM de Django.",
+      "Este proyecto está diseñado con Django e implica conocimiento avanzado en Python (POO y CRUD), HTML, CSS (en este caso Bootstrap) y, en algunos casos, JavaScript (para interactividad en la web). Para los datos del sistema se utilizó SQL y uno de sus motores de base de datos para poder almacenarlos; en este caso se utilizó PostgreSQL. Finalmente, para relacionar las tablas se utilizó el ORM de Django.",
     technologies: ["Django", "Python", "HTML", "CSS Bootstrap", "SQL", "PostgreSQL"],
   },
   {
